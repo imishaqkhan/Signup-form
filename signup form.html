@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main">
+        
+     <form action="">
+        <h1>Sign up form</h1>
+        <div class="input-box">
+            <div class="input-field">
+                <label for="fname">First Name</label>
+                <input type="text" placeholder="First Name" required>
+            </div>
+            <div class="input-field">
+                <label for="lname">Last Name</label>
+                <input type="text" placeholder="Last Name" required>
+            </div>
+        </div>
+        <div class="input-box">
+            <div class="input-field">
+                <label for="email">Your Email </label>
+                <input type="email" placeholder="Email Id" required>
+            </div>
+            <div class="input-field">
+                <label for="phone">Phone</label>
+                <input type="number" placeholder="Number" required">
+            </div>
+        </div>
+        <div class="input-box">
+            <div class="input-field">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Enter your password" required">
+            </div>
+            <div class="input-field">
+                <label for="password">Comfirm Password</label>
+                <input type="password" placeholder="Comfirm your password" required">
+            </div>
+        </div>
+        <div class="input-box">
+            <div class="input-field">
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="">India</option>
+                    <option value="">Bangladish</option>
+                    <option value="">Soudi Arabia</option>
+                    <option value="">Pakistan</option>
+                    <option value="">Dubai</option>
+
+                </select>
+            </div>
+            <div class="input-field">
+                <label for="province">Province</label>
+                <select name="province" id="province">
+                    <option value="kpk">Khyber pakhton khwa</option>
+                    <option value="">Punjab</option>
+                    <option value="">Balochistan</option>
+                    <option value="">Sindh</option>
+                </select>
+            </div>
+        </div>
+        <div class="input-box">
+            <div class="input-field">
+                <label for="city">City</label>
+                <select name="city" id="city">
+                    <option value="">Islamabad</option>
+                    <option value="">Peshawar</option>
+                    <option value="">Swabi</option>
+                    <option value="">Mardan</option>
+                    <option value="">lahore</option>
+
+                </select>
+            </div>
+            <div class="input-field">
+                <label for="postal code">Postal Code</label>
+                <input type="number" placeholder="Enter City postal Code" required>
+            </div>
+        </div>
+        <div class="input-box">
+            <div class="input-field">
+                <label for="gender">Gender</label>
+                <label for="male">Male</label>
+                <input type="radio">
+                <label for="female">Female</label>
+                <input type="radio">
+            </div>
+            <div class="input-field">
+                <label for="nationality">Nationality</label>
+                <input type="text">
+            </div>
+        </div>
+      <div class="privacy"> <label><input type="checkbox" required>Declare that the above information is true and correct</label></div>
+       <div class="input-box">
+         <button type="reset" class="btn">
+           Reset
+         </button>
+         <button type="submit" class="btn ">Submit</button>
+        </div>
+        
+     </form>
+    </div>
+</body>
+</html>
